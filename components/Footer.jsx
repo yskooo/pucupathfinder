@@ -9,15 +9,15 @@ const Footer = () => {
             <div class="mb-30 md:mb-0">
                 <a href="" className="flex items-center">
                     <Image
-                    src="/img/pucupathlogo.svg"
-                    className='w-3/4'
+                    src="/img/blue.svg"
+                    className='w-3/4 overflow-visible'
                     alt="pucu"
                     width={100}
                     height={100}
                     />
                 </a>
                 <div className='mx-auto sm:my-4'>
-                  <p className='my-1 text-gray-500 dark:text-gray-400'>Helping research rangers forge <br/>a path in the world of research.</p>
+                  <p className='my-1 pl-8 text-gray-500 dark:text-gray-400'>Helping research rangers forge <br/>a path in the world of research.</p>
                 </div>
             </div>
             <br /> <br />
@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div class="sm:flex sm:items-center sm:justify-between">
-            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a class="hover:underline">PUCU PATHFINDERr</a>. All Rights Reserved.
+            <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a class="hover:underline">PUCU PATHFINDER</a>. All Rights Reserved.
             </span>
             <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
                 <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
