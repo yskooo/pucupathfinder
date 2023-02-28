@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Subjects = () => {
   return (
     <div className='mx-auto'>
-         <section class="bg-gray-100" id='subjects'>
+         <section class="bg-gray-100 mx-auto" id='subjects'>
              <div class="px-6 py-10 mx-auto pt-20">
                 <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16 text-center">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Subjects<span className='text-[#D3B306]'>.</span></h2>
@@ -12,7 +12,7 @@ const Subjects = () => {
                     </p>
                 </div>
 
-                <section class="mx-auto p-4 grid grid-cols-1 text-center gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-4">
+                <section class="mx-auto p-4 text-gray-900 text-base grid grid-cols-1 text-center gap-8 mt-8 xl:mt-12 xl:gap-12 sm:mx-auto sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-4">
                     <div class="w-72">
                         <Image
                             src='img/subjectbook.svg'
