@@ -8,7 +8,7 @@ const Subjects = () => {
                 <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16 text-center">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">Subjects<span className='text-[#D3B306]'>.</span></h2>
                     <p class="text-base text-gray-500 sm:text-xl dark:text-gray-400">
-                        Discover the available research studies by the senior high school students of PHINMA UPang College Urdaneta from S.Y. 2019 - S.Y. 2023
+                        Discover the available research studies by the senior high school students of PHINMA UPang College Urdaneta from A.Y. 2019 - A.Y. 2023
                     </p>
                 </div>
 
