@@ -3,9 +3,9 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-<div loading="lazy" class="bg-[url('/img/bgbanner.svg')] opacity-95 relative max-w-screen-4xl h-screen w-full pt-20 flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center" id='home'> 
-  <main class="px-8 sm:px-24 z-10 sm:w-2/3">
-        <div class="mt-16 pt-16">
+<div loading="lazy" class="bg-[url('/img/bgbanner.svg')] opacity-95 relative max-w-screen h-screen w-full pt-20 flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center" id='home'> 
+  <main class="px-8 sm:px-24 z-10 sm:w-2/3 max-w-screen-2xl">
+        <div class="mt-16 pt-16 max-w-screen-2xl">
           <h2 class="text-4xl tracking-tight leading-10 font-extrabold sm:text-5xl text-[#D3B306] sm:leading-none md:text-6xl">
             Navigate the world of research
           </h2>
