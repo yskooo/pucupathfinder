@@ -1,0 +1,37 @@
+[{
+    "id":"12",
+    "subjectTitle": "APP 004 Entrepreneurship",
+    "researchers":"12 ABM-2",
+    "type": "Marketing Plan",
+    "AY":"2021-2022",
+    "image":"/img/app004/12 ABM 2_GROUP 3_FINALMPAN.png",
+    "file":"/pdfs/APP004/12 ABM 2_GROUP 3_FINALMPAN.pdf"
+    },
+    {
+      "id":"13",
+      "subjectTitle": "APP 004 Entrepreneurship",
+      "researchers":"12 ABM-2",
+      "type": "Marketing Plan",
+      "AY":"2021-2022",
+      "image":"/img/app004/12 ABM 2_GROUP 4_FINALMPLAN.png",
+      "file":"/pdfs/APP004/12 ABM 2_GROUP 4_FINALMPLAN.pdf"
+      },
+      {
+        "id":"14",
+        "subjectTitle": "APP 004 Entrepreneurship",
+        "researchers":"12 ABM-1",
+        "type": "Marketing Plan",
+        "AY":"2021-2022",
+        "image":"/img/app004/12-ABM-1_GROUP-2_FINALMPLAN.png",
+        "file":"/pdfs/APP004/12-ABM-1_GROUP-2_FINALMPLAN.pdf"
+        },
+        {
+          "id":"15",
+          "subjectTitle": "APP 004 Entrepreneurship",
+          "researchers":"12 ABM-4",
+          "type": "Marketing Plan",
+          "AY":"2021-2022",
+          "image":"/img/app004/12 ABM 4_GROUP 8_FINAL MPLAN.png",
+          "file":"/pdfs/APP004/12 ABM 4_GROUP 8_FINAL MPLAN.pdf"
+          }
+        ]

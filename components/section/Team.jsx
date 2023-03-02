@@ -15,7 +15,7 @@ const Team = () => {
           <section class="flex flex-col mx-auto text-white">
             <div className='my-5 object-fit'>
               <div className="flex justify-center items-center">
-                <img src="/people/jm.png" className='rounded-full w-36' alt="" />
+                <img src="/people/jm.webp" className='rounded-full w-36' alt="" />
               </div>
                 <h1>Valendiano, Jay Marc</h1>
               <p>Project Manager & UI/UX Designer</p>
@@ -24,7 +24,7 @@ const Team = () => {
             <div className='my-5 '>
             <img class="mx-auto w-36 rounded-full" src="/people/haroldmartin.png" alt=""/>
               <h1>Patacsil, Harold</h1>
-              <p>Author & Software Developer</p>
+              <p>Software Developer</p>
             </div>
           </section>
           </div>

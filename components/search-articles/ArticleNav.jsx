@@ -7,7 +7,7 @@ const ArticleNav = () => {
   <div className="bg-green container flex items-center justify-center mt-4 mx-auto">
   <a href="" className="flex justify-center items-center">
     <Image 
-        src='/pucu.png'
+        src='/img/blue.svg'
         className='py-6'
         width={75}
         height={75}

@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
+import data from '../../data/abm001.json'
 const Subjects = () => {
   return (
     <div className='mx-auto'>
@@ -13,17 +15,18 @@ const Subjects = () => {
                 </div>
 
                 <section class="mx-auto p-4 text-gray-900 text-base grid grid-cols-1 text-center gap-8 mt-8 xl:mt-12 xl:gap-12 sm:mx-auto sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-4">
-                    <div class="w-72">
-                        <Image
-                            src='img/subjectbook.svg'
-                            className='w-72'
-                            width={100}
-                            height={100}
-                            alt='logo'
-                            />
-                        <h1 className='font-bold'>ABM 001</h1>
-                        <p>ORGANIZATION AND MANAGEMENT</p>
-                    </div>
+                    <Link href="/ABM001" passHref target="">
+                    <div class="w-72 bg-white border-2 rounded-xl shadow-inner hover:border-[#D3B306] p-2">                            <Image
+                                src='img/subjectbook.svg'
+                                className='w-72'
+                                width={100}
+                                height={100}
+                                alt='logo'
+                                />
+                            <h1 className='font-bold'>ABM 001</h1>
+                            <p>ORGANIZATION AND MANAGEMENT</p>
+                        </div>
+                    </Link>
                     <div className="w-72">
                     <Image
                             src='img/subjectbook.svg'
@@ -46,7 +49,8 @@ const Subjects = () => {
                         <h1 className='font-bold'>APP 003</h1>
                         <p>FILIPINO SA PILING LARANGAN</p>
                     </div> 
-                    <div className="w-72">
+                    <Link href="/APP004" passHref target="">
+                    <div class="w-72 bg-white border-2 rounded-xl shadow-inner hover:border-[#D3B306] p-2">
                     <Image
                             src='img/subjectbook.svg'
                             className='w-72'
@@ -57,7 +61,9 @@ const Subjects = () => {
                         <h1 className='font-bold'>APP 004</h1>
                         <p>ENTREPRENEURSHIP</p>
                     </div> 
-                    <div className="w-72">
+                    </Link>
+                    <Link href="/APP005" passHref target="">
+                    <div class="w-72 bg-white border-2 rounded-xl shadow-inner hover:border-[#D3B306] p-2">
                     <Image
                             src='img/subjectbook.svg'
                             className='w-72'
@@ -68,7 +74,9 @@ const Subjects = () => {
                         <h1 className='font-bold'>APP 005</h1>
                         <p>PRACTICAL RESEARCH 1</p>
                     </div> 
-                    <div className="w-72">
+                    </Link>
+                    <Link href="/APP006" passHref target="">
+                    <div class="w-72 bg-white border-2 rounded-xl shadow-inner hover:border-[#D3B306] p-2">
                     <Image
                             src='img/subjectbook.svg'
                             className='w-72'
@@ -79,6 +87,7 @@ const Subjects = () => {
                         <h1 className='font-bold'>APP 006</h1>
                         <p>PRACTICAL RESEARCH 2</p>
                     </div>
+                    </Link>
                     <div className="w-72">
                     <Image
                             src='img/subjectbook.svg'

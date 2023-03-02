@@ -1,0 +1,101 @@
+[
+    {
+    "id":"1",
+    "subjectTitle": "ABM 001 Organization and Management",
+    "researchers":"11 ABM-1",
+    "type": "Business Plan",
+    "AY":"2021-2022",
+    "image":"/img/abm001/11ABM1_GROUP2_FINALOMPLAN-converted.png",
+    "file":"/pdfs/ABM001/11ABM1_GROUP2_FINALOMPLAN-converted.pdf"
+    },
+    {
+      "id":"2",
+      "subjectTitle": "ABM 001 Organization and Management",
+      "researchers":"11 ABM-3",
+      "type": "Business Plan",
+      "AY":"2021-2022",
+      "image":"/img/abm001/11 ABM 3_GROUP 5_FINALOMPLAN.png",
+      "file":"/pdfs/ABM001/11 ABM 3_GROUP 5_FINALOMPLAN.pdf"
+      },
+      {
+        "id":"3",
+        "subjectTitle": "ABM 001 Organization and Management",
+        "researchers":"11 ABM-5",
+        "type": "Organization and Management Plan",
+        "AY":"2021-2022",
+        "image":"/img/abm001/11 ABM 5_GROUP 9_FINALOMPLAN.png",
+        "file":"/pdfs/ABM001/11 ABM 5_GROUP 9_FINALOMPLAN.pdf"
+        },
+        {
+          "id":"4",
+          "subjectTitle": "ABM 001 Organization and Management",
+          "researchers":"11 ABM-2",
+          "type": "Organization and Management Plan",
+          "AY":"2021-2022",
+          "image":"/img/abm001/11-ABM-2_GROUP3_FINALOMPLAN.png",
+          "file":"/pdfs/ABM001/11-ABM-2_GROUP3_FINALOMPLAN.pdf"
+          },
+          {
+            "id":"5",
+            "subjectTitle": "ABM 001 Organization and Management",
+            "researchers":"11 ABM-1",
+            "type": "Business Plan",
+            "AY":"2021-2022",
+            "image":"/img/abm001/11ABM-1_GROUP1_FINALOMPLAN.png",
+            "file":"/pdfs/ABM001/11ABM-1_GROUP1_FINALOMPLAN.pdf"
+            },
+            {
+              "id":"6",
+              "subjectTitle": "ABM 001 Organization and Management",
+              "researchers":"11 ABM-2",
+              "type": "Business Plan",
+              "AY":"2021-2022",
+              "image":"/img/abm001/11ABM2_Group4-_FINALOMPLAN.docx.png",
+              "file":"/pdfs/ABM001/11ABM2_Group4-_FINALOMPLAN.docx.pdf"
+              },
+              {
+                "id":"7",
+                "subjectTitle": "ABM 001 Organization and Management",
+                "researchers":"11 ABM-3",
+                "type": "Business Plan",
+                "AY":"2021-2022",
+                "image":"/img/abm001/11ABM3_GROUP6_FINALOMPLAN.png",
+                "file":"/pdfs/ABM001/11ABM3_GROUP6_FINALOMPLAN.pdf"
+                },
+                {
+                  "id":"8",
+                  "subjectTitle": "ABM 001 Organization and Management",
+                  "researchers":"11 ABM-6",
+                  "type": "Organization and Management Plan",
+                  "AY":"2021-2022",
+                  "image":"/img/abm001/11ABM06_GROUP12_FINALOMPLAN.png",
+                  "file":"/pdfs/ABM001/11ABM06_GROUP12_FINALOMPLAN.pdf"
+                  },
+                  {
+                    "id":"9",
+                    "subjectTitle": "ABM 001 Organization and Management",
+                    "researchers":"11 ABM-4",
+                    "type": "Organization and Management Plan",
+                    "AY":"2021-2022",
+                    "image":"/img/abm001/ABM4_GROUP7_FINALOMPLAN.png",
+                    "file":"/pdfs/ABM001/ABM4_GROUP7_FINALOMPLAN.pdf"
+                    },
+                    {
+                      "id":"10",
+                      "subjectTitle": "ABM 001 Organization and Management",
+                      "researchers":"11 ABM-4",
+                      "type": "Organization and Management Plan",
+                      "AY":"2021-2022",
+                      "image":"/img/abm001/CHECKED 11 ABM 4_GROUP8_FINALOMPLAN.png",
+                      "file":"/pdfs/ABM001/CHECKED 11 ABM 4_GROUP8_FINALOMPLAN.pdf"
+                      },
+                      {
+                        "id":"11",
+                        "subjectTitle": "ABM 001 Organization and Management",
+                        "researchers":"11 ABM-6",
+                        "type": "Business Plan",
+                        "AY":"2021-2022",
+                        "image":"/img/abm001/CHECKED 11 ABM 6_GROUP 11_FINALOMPLAN.png",
+                        "file":"/pdfs/ABM001/CHECKED 11 ABM 6_GROUP 11_FINALOMPLAN.pdf"
+                        }
+                    ]

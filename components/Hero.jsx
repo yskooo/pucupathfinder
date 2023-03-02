@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Hero = () => {
   return (
-<div class="bg-[url('/img/bgbanner.svg')] opacity-95 relative h-screen w-full pt-20 flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center" id='home'> 
+<div loading="lazy" class="bg-[url('/img/bgbanner.svg')] opacity-95 relative max-w-screen-4xl h-screen w-full pt-20 flex flex-col sm:flex-row items-center justify-center sm:justify-start text-center sm:text-left bg-cover bg-center" id='home'> 
   <main class="px-8 sm:px-24 z-10 sm:w-2/3">
         <div class="mt-16 pt-16">
           <h2 class="text-4xl tracking-tight leading-10 font-extrabold sm:text-5xl text-[#D3B306] sm:leading-none md:text-6xl">
@@ -18,7 +18,7 @@ const Hero = () => {
               <a href="#about" class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white tracking-wide rounded-lg shadow-md shadow-blue-500/30 bg-blue-800 hover:shadow-blue-300/30 focus:ring-4 focus:ring-yellow-300">
                   Learn more
               </a>
-              <Link href="/articles" passHref target="_blank" class="inline-flex justify-center items-center py-3 px-5 text-base font-small text-center text-white rounded-lg border hover:shadow-border-yellow-300 border-gray-300 focus:ring-2 focus:ring-blue-700">
+              <Link href="/articles" passHref target="_blank" class="inline-flex justify-center items-center py-3 px-5 text-base font-small text-center text-white rounded-lg border hover:border-yellow-300 border-gray-300 focus:ring-2 focus:ring-blue-700">
                   Search articles now
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-2 w-6 h-6">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zm-7.518-.267A8.25 8.25 0 1120.25 10.5M8.288 14.212A5.25 5.25 0 1117.25 10.5" />
