@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
+import Warning from './subjects/Warning'
 const Footer = () => {
   return (
     <footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
@@ -46,12 +47,14 @@ const Footer = () => {
                 </div>
                 <div>
                     <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-                    <ul class="text-gray-600 dark:text-gray-400">
-                        <li class="mb-4">
-                            <a href="../privacypolicy.pdf" src="" class="hover:underline">Privacy Policy</a>
-                        </li>
+                    <ul class="text-gray-600 dark:text-gray-400Q">
+                       <Link href="/privacypolicy" passHref target="_blank">
+                        <li class="mb-4 hover:underline">
+                            Privacy Policy
+                        </li></Link>
                         <li>
-                            <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            <Warning/>
+                            {/* <a href="#" class="hover:underline">Terms &amp; Conditions</a> */}
                         </li>
                     </ul>
                 </div>

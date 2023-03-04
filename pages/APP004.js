@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import data from '../data/app004.json'
+import Navigation from '../components/subjects/Navigation';
 
 const APP004 = () => {
   const router = useRouter();
@@ -20,16 +21,7 @@ const APP004 = () => {
         <link rel="icon" href="/img/pathfinderwhite.svg" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
       </Head>
-      <nav className=''>
-        Subjects | APP 004
-      </nav>
-
-        <button onClick={handleGoBack}>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-          </svg>  
-        </button>
-
+      <Navigation/>
         <main className='contain min-h-screen'>
         <article className='grid grid-cols-1 gap-4 m-6 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-3' loading="lazy">
       {data.map(item => (

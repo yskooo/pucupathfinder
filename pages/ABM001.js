@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Script from 'next/script';
 import Link from 'next/link';
 import Image from 'next/image';
-import data from '../data/abm001.json'
+import data from '../data/abm001.json';
+import Navigation from '../components/subjects/Navigation';
 
 const ABM001 = () => {
   return (
@@ -14,9 +15,7 @@ const ABM001 = () => {
         <link rel="icon" href="/img/pathfinderwhite.svg" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css" rel="stylesheet" />
       </Head>
-      <nav className=''>
-        Subjects | ABM 001
-      </nav>
+      <Navigation/>
         <main className='contain min-h-screen'>
         <article className='grid grid-cols-1 gap-4 m-6 lg:grid-cols-3 md:grid-cols-2 xl:grid-cols-3' loading="lazy">
       {data.map(item => (
