@@ -138,7 +138,6 @@ const Subjects = () => {
                           </div>
                     </Link>
                     </div>
-                    <Warning/>
                 </div>
         </section>
     </div>
