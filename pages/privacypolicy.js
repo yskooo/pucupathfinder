@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Navigation from '../components/subjects/Navigation'
 
 const PrivacyPolicy = () => {
   return (
@@ -6,6 +7,7 @@ const PrivacyPolicy = () => {
       <Head>
         <title>Privacy Policy | PUCU Pathfinder</title>
       </Head>
+      <Navigation/>
       <div className="container mx-auto my-8 px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl font-bold mb-4">PRIVACY POLICY</h1>
         <h2 className="text-xl font-bold mb-2">I. INTRO</h2>

@@ -3,6 +3,7 @@ import Script from 'next/script';
 import ArticleNav from '../components/search-articles/ArticleNav.jsx';
 import ArticleDesc from '../components/search-articles/ArticleDesc.jsx';
 import ResearchCard from '../components/search-articles/ResearchCard';
+import Navigation from '../components/subjects/Navigation'
 
 const Search = () => {
   return (
@@ -18,6 +19,7 @@ const Search = () => {
       </Head>
       <nav className=''>
           {/* <ArticleNav/> */}
+          <Navigation/> <br />
       </nav>
         <main className='contain min-h-screen'>
             {/* <ArticleDesc/> */}
